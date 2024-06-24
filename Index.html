@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bomboms Gourmet</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6e6e6;
+            color: #5e493a; 
+        }
+        header {
+            background-color: #f4f0ec;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #e9e062;
+            color: #5e493a; 
+            text-align: center;
+            padding: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+            position: relative; 
+            z-index: 1; 
+        }
+        nav a {
+            color: #5e493a; 
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+            position: relative;
+            overflow: hidden; 
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr; 
+            gap: 20px; 
+        }
+        .main-content {
+            grid-column: 2 / 3; 
+            text-align: center;
+            margin-top: 30px; 
+            position: relative; 
+        }
+        img {
+            height: 400px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .Texto {
+            text-align: left;
+            margin: 20px auto;
+            max-width: 600px;
+            background-color: #ffffff; 
+            padding: 20px;
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+        .Texto h2, .Texto h3 {
+            margin: 20px 0;
+            color: #e98c72; 
+        }
+        .decorative-line {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+        }
+        .decorative-line.left {
+            left: 0;
+            background-color: #ffd700; 
+        }
+        .decorative-line.right {
+            right: 0;
+            background-color: #c0c0c0; 
+        }
+        .sidebar {
+            grid-column: 1 / 2; 
+            background-color: #f9f9f9; 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar h3 {
+            color: #e98c72; 
+        }
+        #footer {
+            background-color: #f4f0ec; 
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+            color: #5e493a; 
+            float: left;
+        }
+        .decoration {
+            background: linear-gradient(to bottom, #ffd700, #c0c0c0); 
+            height: 20px; 
+            margin-top: 20px; 
+        }
+        
+        .decorative-line.right-main {
+            right: -130px; 
+            background-color: #c0c0c0; 
+            width: 2px;
+            height: 100%; 
+        }
+
+        #zap {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    height: 250px;
+    z-index: 1000; 
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bomboms Gourmet</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="produtos.html">Produtos</a> |
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <a href="https://wa.me/5561991513240?text=Em%20que%20posso%20ajuda-lo%3F">
+        <img id="zap" src="zap.webp" alt="">
+    </a>
+ 
+    <div class="container">
+        <div class="decorative-line left"></div>
+        <div class="main-content">
+            <h2>Bem-vindo ao nosso mundo de Bombons gourmet!</h2>
+            <h2>Descubra os sabores únicos e irresistíveis que temos para oferecer.</h2>
+            <img src="bombom.jpg" alt="bombom">
+            
+            <h2>Descubra o Mundo do Prazer Gourmet com os Bombons Artesanais Exclusivos</h2>
+            <h2>Bem-vindo ao universo encantado dos bombons gourmet! Prepare-se para uma jornada irresistível de sabores exóticos, texturas sedutoras e uma explosão de prazer em cada mordida. Nossa coleção de bombons artesanais é um convite para os verdadeiros apreciadores de chocolate, onde a tradição se encontra com a inovação para criar experiências únicas e memoráveis.</h2>
+            
+            <h2>Arte em Cada Mordida</h2>
+            <h3>Nossos mestres chocolatiers dedicam-se apaixonadamente a cada detalhe, desde a seleção dos ingredientes mais finos até a meticulosa preparação manual. Cada bombom é uma obra-prima cuidadosamente elaborada, onde o chocolate de alta qualidade se funde harmoniosamente com recheios irresistíveis, resultando em uma explosão de sabor que desperta os sentidos.</h3>
+            
+            <h2>Uma Viagem de Sabores</h2>
+            <h3>Explore uma vasta gama de sabores que desafiam as expectativas e elevam o paladar a novas alturas. De clássicos intemporais como o delicioso chocolate ao leite com recheio de caramelo salgado, a combinações ousadas como o exótico maracujá com ganache de chocolate branco, cada bombom é uma aventura sensorial que o transportará para lugares desconhecidos.</h3>
+            
+            <h2>Presenteie com Sofisticação</h2>
+            <h3>Seja para celebrar uma ocasião especial ou simplesmente para satisfazer os desejos mais exigentes, nossos bombons gourmet são o presente perfeito para impressionar e deliciar. Surpreenda seus entes queridos com uma caixa luxuosa repleta de indulgência, e deixe que cada mordida conte a história de seu afeto e apreço.</h3>
+            
+            <h2>Compromisso com a Qualidade</h2>
+            <h3>Na busca pela excelência, comprometemo-nos a utilizar apenas os melhores ingredientes, livres de conservantes e aditivos artificiais. Cada etapa do processo de produção é realizada com o mais alto padrão de qualidade e higiene, garantindo que cada bombom que chega até você seja uma verdadeira obra de arte com sabor inigualável.</h3>
+            
+            <h2>Entregue-se ao Prazer Gourmet</h2>
+            <h3>Então, o que você está esperando? Permita-se ser seduzido pela tentação irresistível dos nossos bombons gourmet e descubra um mundo de prazer e indulgência que está à espera de ser explorado. Faça da sua próxima experiência com chocolate uma verdadeira celebração dos sentidos, e deixe-se levar pela magia dos nossos deliciosos bombons artesanais.</h3>
+            
+            <h3>Experimente já nossa coleção exclusiva e deixe-se levar pelos sabores inesquecíveis que só os verdadeiros bombons gourmet podem oferecer.</h3>
+            
+            
+            <div class="decorative-line right-main"></div>
+       
+    
+    <div class="decoration"></div>
+    
+    <footer id="footer">
+        Copyright © Fabrica de site LTDA. (João Victor, Luis Miguel, Robson Samuel, João Eden, Erick)
+    </footer>
+
+</body>
+</html>

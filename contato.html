@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Doces Gourmet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6e6e6; 
+            color: #5e493a; 
+        }
+        header {
+            background-color: #f4f0ec; 
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #e9e062; 
+            color: #5e493a; 
+            text-align: center;
+            padding: 20px;
+            font-size: 25px;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #5e493a; 
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #ffffff; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            border-radius: 10px; 
+            overflow: hidden; 
+            position: relative;
+        }
+        .container:before,
+        .container:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #e9e062; 
+        }
+        .container:before {
+            left: 0;
+        }
+        .container:after {
+            right: 0;
+        }
+        form {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #ffffff; 
+            border-radius: 5px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+        form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #e98c72; 
+        }
+        form input[type="text"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+            font-size: 16px;
+        }
+        form input[type="submit"] {
+            background-color: #e9e062; 
+            color: #5e493a; 
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px; 
+            font-size: 16px;
+        }
+        form input[type="submit"]:hover {
+            background-color: #ffd700; 
+        }
+        #footer {
+            background-color: #f4f0ec; 
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            color: #5e493a; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contato - Doces Gourmet</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="produtos.html">Produtos</a> |
+        <a href="contato.html">Contato</a>
+    </nav>
+    
+    <div class="container">
+        <div class="container:before"></div>
+        <div class="container:after"></div>
+        <center>
+            <h2>Entre em contato conosco</h2>
+            <h2>Número de Contato : (XX) XXXX-XXXX </h2>
+            <h2>E-mail de Contato : contato@docesgourmet.com</h2>
+            <p>
+                <h2>Avalie nosso trabalho : <a href="https://form.jotform.com/241703368537056"> Clique aqui </a> </h2>
+            </p>
+        </center>
+    </div>
+
+    <footer id="footer">
+        <p>Copyright © Fabrica de site LTDA. (João Victor, Luis Miguel, Robson Samuel, João Eden, Erick)</p>
+    </footer>
+</body>
+</html>
